@@ -1,0 +1,22 @@
+{
+  "name": "wdyr-webpack-plugin",
+  "version": "0.1.0",
+  "description": "webpack plugin for why-did-you-render",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hahazexia/wdyr-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "why-did-you-render"
+  ],
+  "author": "hahazexia",
+  "license": "ISC",
+  "dependencies": {
+    "@welldone-software/why-did-you-render": "^6.2.3"
+  }
+}
