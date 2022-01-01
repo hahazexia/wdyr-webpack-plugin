@@ -1,5 +1,7 @@
 # wdyr-webpack-plugin
 
+![wdyr-webpack-plugin](https://img.shields.io/npm/v/wdyr-webpack-plugin?style=flat-square)
+
 webpack plugin for [why-did-you-render](https://github.com/welldone-software/why-did-you-render)
 
 ## usage
