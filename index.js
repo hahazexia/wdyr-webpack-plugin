@@ -36,8 +36,8 @@ WdyrWebpackPlugin.prototype.apply = function(compiler) {
     if (!this.options.notifier && !this.options.getAdditionalOwnerData) {
       paramsData = util.formatWithOptions({compact: false}, this.options);
     } else {
-      const notifierStr = this.options.notifier?.toString();
-      const getAdditionalOwnerDataStr = this.options.getAdditionalOwnerData?.toString();
+      const notifierStr = this.options.notifier ? this.options.notifier.toString() : '';
+      const getAdditionalOwnerDataStr = this.options.getAdditionalOwnerData ? this.options.getAdditionalOwnerData.toString() : '';
       delete this.options.notifier;
       delete this.options.getAdditionalOwnerData;
       paramsData = util.formatWithOptions({compact: false}, this.options);
